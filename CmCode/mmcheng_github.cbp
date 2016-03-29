@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="mmcheng_github" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/mmcheng_github" prefix_auto="1" extension_auto="1" />
+				<Option object_output="bin/obj/Release/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add option="-fPIC" />
+					<Add directory="CmLib" />
+					<Add directory="CmLib/Segmentation/PlanarCut/code" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="CmLib/Basic/CmCv.cpp" />
+		<Unit filename="CmLib/Basic/CmCv.h" />
+		<Unit filename="CmLib/Basic/CmDefinition.cpp" />
+		<Unit filename="CmLib/Basic/CmDefinition.h" />
+		<Unit filename="CmLib/Basic/CmFile.cpp" />
+		<Unit filename="CmLib/Basic/CmFile.h" />
+		<Unit filename="CmLib/Basic/CmTimer.h" />
+		<Unit filename="CmLib/CRF/fastmath.h" />
+		<Unit filename="CmLib/CRF/permutohedral.h" />
+		<Unit filename="CmLib/Cluster/CmAPCluster.cpp" />
+		<Unit filename="CmLib/Cluster/CmAPCluster.h" />
+		<Unit filename="CmLib/Cluster/CmColorQua.cpp" />
+		<Unit filename="CmLib/Cluster/CmColorQua.h" />
+		<Unit filename="CmLib/Cluster/CmGMM.cpp" />
+		<Unit filename="CmLib/Cluster/CmGMM.h" />
+		<Unit filename="CmLib/CmLib.h" />
+		<Unit filename="CmLib/Illustration/CmEvaluation.cpp" />
+		<Unit filename="CmLib/Illustration/CmEvaluation.h" />
+		<Unit filename="CmLib/Illustration/CmIllu.cpp" />
+		<Unit filename="CmLib/Illustration/CmIllu.h" />
+		<Unit filename="CmLib/Illustration/CmShow.cpp" />
+		<Unit filename="CmLib/Illustration/CmShow.h" />
+		<Unit filename="CmLib/OtherAlg/CmCurveEx.cpp" />
+		<Unit filename="CmLib/OtherAlg/CmCurveEx.h" />
+		<Unit filename="CmLib/OtherAlg/CmValStructVec.h" />
+		<Unit filename="CmLib/Saliency/CmSalCut.cpp" />
+		<Unit filename="CmLib/Saliency/CmSalCut.h" />
+		<Unit filename="CmLib/Saliency/CmSaliencyGC.cpp" />
+		<Unit filename="CmLib/Saliency/CmSaliencyGC.h" />
+		<Unit filename="CmLib/Saliency/CmSaliencyRC.cpp" />
+		<Unit filename="CmLib/Saliency/CmSaliencyRC.h" />
+		<Unit filename="CmLib/Segmentation/EfficientGraphBased/disjoint-set.h" />
+		<Unit filename="CmLib/Segmentation/EfficientGraphBased/segment-graph.h" />
+		<Unit filename="CmLib/Segmentation/EfficientGraphBased/segment-image.cpp" />
+		<Unit filename="CmLib/Segmentation/EfficientGraphBased/segment-image.h" />
+		<Unit filename="CmLib/Segmentation/Maxflow/block.h" />
+		<Unit filename="CmLib/Segmentation/Maxflow/graph.h" />
+		<Unit filename="CmLib/Segmentation/MeanShift/RAList.cpp" />
+		<Unit filename="CmLib/Segmentation/MeanShift/RAList.h" />
+		<Unit filename="CmLib/Segmentation/MeanShift/ms.cpp" />
+		<Unit filename="CmLib/Segmentation/MeanShift/ms.h" />
+		<Unit filename="CmLib/Segmentation/MeanShift/msImageProcessor.cpp" />
+		<Unit filename="CmLib/Segmentation/MeanShift/msImageProcessor.h" />
+		<Unit filename="CmLib/Segmentation/MeanShift/msSys.cpp" />
+		<Unit filename="CmLib/Segmentation/MeanShift/msSys.h" />
+		<Unit filename="CmLib/Segmentation/MeanShift/msSysPrompt.cpp" />
+		<Unit filename="CmLib/Segmentation/MeanShift/rlist.cpp" />
+		<Unit filename="CmLib/Segmentation/MeanShift/rlist.h" />
+		<Unit filename="CmLib/Segmentation/MeanShift/tdef.h" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/code/BlockAllocator.h" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/code/CGraph.cpp" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/code/CGraph.h" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/code/CutGrid.cpp" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/code/CutGrid.h" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/code/CutPlanar.cpp" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/code/CutPlanar.h" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/code/CutPlanarDefs.h" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/code/CutSegment.cpp" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/code/CutSegment.h" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/code/CutShape.cpp" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/code/CutShape.h" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/code/DynPath.cpp" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/code/DynPath.h" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/code/Planar.cpp" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/code/Planar.h" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/code/PlanarException.cpp" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/code/PlanarException.h" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/examples/windows/testCutGrid/testCutGrid/stdafx.h" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/examples/windows/testCutGrid/testCutGrid/targetver.h" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/examples/windows/testCutPlanar/testCutPlanar/stdafx.h" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/examples/windows/testCutPlanar/testCutPlanar/targetver.h" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/examples/windows/testCutSegment/testCutSegment/stdafx.h" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/examples/windows/testCutSegment/testCutSegment/targetver.h" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/examples/windows/testCutShape/testCutShape/stdafx.h" />
+		<Unit filename="CmLib/Segmentation/PlanarCut/examples/windows/testCutShape/testCutShape/targetver.h" />
+		<Unit filename="CmLib/stdafx.cpp" />
+		<Unit filename="CmLib/stdafx.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

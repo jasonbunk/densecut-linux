@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="mmcheng_densecut" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/mmcheng_densecut" prefix_auto="1" extension_auto="1" />
+				<Option object_output="bin/obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+					<Add option="-fopenmp" />
+					<Add directory="../" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="opencv_highgui" />
+					<Add library="opencv_core" />
+					<Add library="opencv_imgproc" />
+					<Add library="../CmCode/bin/Release/libmmcheng_github.so" />
+					<Add library="gomp" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="CmGrabSal.cpp" />
+		<Unit filename="CmGrabSal.h" />
+		<Unit filename="DenseCRF.cpp" />
+		<Unit filename="DenseCRF.h" />
+		<Unit filename="GrabCutMF.cpp" />
+		<Unit filename="GrabCutMF.h" />
+		<Unit filename="GrabCutMF_Main.cpp" />
+		<Unit filename="stdafx.cpp" />
+		<Unit filename="stdafx.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

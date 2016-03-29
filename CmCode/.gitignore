@@ -1,0 +1,17 @@
+# git ignore file
+
+Lib/
+Compiled/
+Debug/
+Release/
+GeneratedFiles/
+ipch/
+x64/
+*.opensdf
+*.sdf
+*.suo
+*.user
+*.pdb
+mmcheng_github.depend
+mmcheng_github.layout
+bin/
