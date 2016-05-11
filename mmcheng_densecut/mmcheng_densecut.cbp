@@ -22,7 +22,7 @@
 					<Add library="opencv_highgui" />
 					<Add library="opencv_core" />
 					<Add library="opencv_imgproc" />
-					<Add library="../CmCode/bin/Release/libmmcheng_github.so" />
+					<Add library="../CmCode/bin/libmmcheng_github.so" />
 					<Add library="gomp" />
 				</Linker>
 			</Target>
